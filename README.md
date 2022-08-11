@@ -26,6 +26,7 @@ Host saga
     ServerAliveCountMax 100
 ```
 NOTE: Replace username with your own and add many configuration as you need just copying it. Remember to change the HostName.
+
 WARNING: If you are doing this for the first time, you may need to manually create this .ssh/config file.
 
 ### STEP:2 Passwordless ```SSH```
