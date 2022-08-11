@@ -11,6 +11,6 @@ fi
 module load gcc
 
 #remember to convert special characters in username or password to HEX format e.g. @ -> %23
-export http_proxy='http://user.name:Pass123%23@10.20.1.222:3128'
-export https_proxy='http://user.name:Pass123%23@10.20.1.222:3128'
-export ftp_proxy='http://user.name:Pass123%23@10.20.1.222:3128'
+export http_proxy='http://user.name:Pass123%23@hostname:3128'
+export https_proxy='http://user.name:Pass123%23@hostname:3128'
+export ftp_proxy='http://user.name:Pass123%23@hostname:3128'
