@@ -56,3 +56,13 @@ View the job queue of a specific user. Make sure to replace the <username> with 
 ```scancel <jobID>```:
 Cancel a job with its JOBID. Make sure to replace the <jobID> with your own.
 
+### All about Modules
+```Module``` represents the avialable softwares/libraries pre-installed in the system. Instead of installing them locally, it is advised to load them while running or compiling a code.
+
+```module avail```: List of all possible softwares/libraries in the system.
+
+```module spider <keyword of specific software/lib>```: List all possible version of that module. e.g. ```module spider anaconda```
+
+```module load <software/library name>```: Load a specific software/library. e.g. ```module load Anaconda3/2019.07```
+
+```module list <software/library name>```: List of loaded modules.
