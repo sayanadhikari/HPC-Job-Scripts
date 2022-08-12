@@ -66,3 +66,5 @@ Cancel a job with its JOBID. Make sure to replace the <jobID> with your own.
 ```module load <software/library name>```: Load a specific software/library. e.g. ```module load Anaconda3/2019.07```
 
 ```module list <software/library name>```: List of loaded modules.
+
+```module purge```: Unload all the modules from your current session.
